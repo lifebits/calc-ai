@@ -2,6 +2,7 @@
 id: calculator-tasks
 kind: registry
 ---
+> Реестр заморожен 2026-11-04: статусы — в трекере проекта calc.
 
 # CLC-TASKS.md — задачи калькулятора
 
