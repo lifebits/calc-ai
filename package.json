@@ -1,0 +1,19 @@
+{
+  "name": "calc-ai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Калькулятор — тестовый проект для MDP: код, задачи реестром в git, CI",
+  "type": "module",
+  "bin": { "calc": "dist/cli.js" },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "calc": "node dist/cli.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  }
+}
